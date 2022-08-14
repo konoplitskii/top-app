@@ -1,4 +1,4 @@
-import {Htag} from "../components";
+import {Htag, P} from "../components";
 import Button from "../components/Button/Button";
 
 export default function Home() {
@@ -11,6 +11,9 @@ export default function Home() {
 				}>
 				Кнопка</Button>
 			<Button appearance="ghost" arrow="right">Кнопка 2</Button>
+			<P size="l">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequatur consequuntur culpa, distinctio fugit impedit minima molestiae nostrum praesentium recusandae reiciendis reprehenderit rerum saepe velit voluptatum? Debitis doloremque impedit soluta.
+			</P>
     </div>
   )
 }
